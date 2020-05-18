@@ -1,6 +1,6 @@
 package com.model.mahasiswa;
 
-import java.beans.Statement;
+import java.beans.Statement; 
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;

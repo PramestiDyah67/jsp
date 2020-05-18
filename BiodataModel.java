@@ -20,7 +20,7 @@ public class BiodataModel {
 			con=(Connection)
 			DriverManager.getConnection("jdbc:mysql://localhost:3306/mhs");
 			*/
-			String url ="jdbc:mysql://localhost:3306/mhs";
+			String url ="jdbc:mysql://localhost:3306/mhs?user=root&password=\"";
             String user="root";
             String pass="";
             Class.forName("com.mysql.jdbc.Driver");
